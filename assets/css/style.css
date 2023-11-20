@@ -202,7 +202,7 @@ footer a {
 
 @media screen and (min-width: 576px) {
     article h1 {
-        font-size: 4.5rem;
+        font-size: 3rem;
     }
     article h2 {
         font-weight: bold;
@@ -214,7 +214,7 @@ footer a {
 
     table {
         margin: 8vh auto;
-        width: 50%;
+        width: 70%;
     }
 
     main section input {
@@ -232,6 +232,10 @@ footer a {
 /* View 768px */
 
 @media screen and (min-width: 768px) {
+    article h1 {
+        font-size: 3.75rem;
+    }
+
     table {
         margin: 8vh auto;
         width: 60%;
@@ -245,6 +249,11 @@ footer a {
 /* View 1200px */
 
 @media screen and (min-width: 1200px) {
+
+    article h1 {
+        font-size: 4.5rem;
+    }
+
     header, header div {
         display: flex;
         align-items: center;
@@ -271,6 +280,10 @@ footer a {
 
     #videoAndNovitaDiv {
         display: flex;
+    }
+
+    #sectionNovita {
+        width: 50%;
     }
 
     #videoAndNovitaDiv iframe {
